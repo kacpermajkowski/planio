@@ -15,10 +15,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Regeneracyjny sen. Zapewnia energię na cały dzień.",
-            "EndDate": "07-11-2024-06:00:00",
+            "EndDate": "21-05-2025-06:00:00",
             "EstimatedMinutes": 420,
             "Priority": 5,
-            "StartDate": "06-11-2024-23:00:00",
+            "StartDate": "20-05-2025-23:00:00",
             "StartHour": 23,
             "Title": "Sen",
             "Type": "Mental Health"
@@ -26,10 +26,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Zapisywanie myśli i planów na dzień.",
-            "EndDate": "07-11-2024-06:40:00",
+            "EndDate": "20-05-2025-06:40:00",
             "EstimatedMinutes": 30,
             "Priority": 3,
-            "StartDate": "07-11-2024-06:10:00",
+            "StartDate": "20-05-2025-06:10:00",
             "StartHour": 6,
             "Title": "Poranny dziennik",
             "Type": "Personal Development"
@@ -37,10 +37,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Codzienna dawka wiedzy językowej.",
-            "EndDate": "07-11-2024-07:30:00",
+            "EndDate": "20-05-2025-07:30:00",
             "EstimatedMinutes": 40,
             "Priority": 3,
-            "StartDate": "07-11-2024-06:50:00",
+            "StartDate": "20-05-2025-06:50:00",
             "StartHour": 6,
             "Title": "Nauka języka",
             "Type": "Education"
@@ -48,10 +48,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Chwila relaksu przed pracą.",
-            "EndDate": "07-11-2024-08:10:00",
+            "EndDate": "20-05-2025-08:10:00",
             "EstimatedMinutes": 30,
             "Priority": 3,
-            "StartDate": "07-11-2024-07:40:00",
+            "StartDate": "20-05-2025-07:40:00",
             "StartHour": 7,
             "Title": "Relax Time",
             "Type": "Leisure"
@@ -59,10 +59,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Przygotowanie posiłku do pracy.",
-            "EndDate": "07-11-2024-09:05:00",
+            "EndDate": "20-05-2025-09:05:00",
             "EstimatedMinutes": 45,
             "Priority": 3,
-            "StartDate": "07-11-2024-08:20:00",
+            "StartDate": "20-05-2025-08:20:00",
             "StartHour": 8,
             "Title": "Obiad",
             "Type": "Chores"
@@ -70,10 +70,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Chwila odpoczynku przed pracą.",
-            "EndDate": "07-11-2024-09:45:00",
+            "EndDate": "20-05-2025-09:45:00",
             "EstimatedMinutes": 30,
             "Priority": 3,
-            "StartDate": "07-11-2024-09:15:00",
+            "StartDate": "20-05-2025-09:15:00",
             "StartHour": 9,
             "Title": "Odpoczynek",
             "Type": "Leisure"
@@ -81,10 +81,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Dotarcie do miejsca pracy",
-            "EndDate": "07-11-2024-10:40:00",
+            "EndDate": "20-05-2025-10:40:00",
             "EstimatedMinutes": 45,
             "Priority": 3,
-            "StartDate": "07-11-2024-09:55:00",
+            "StartDate": "20-05-2025-09:55:00",
             "StartHour": 9,
             "Title": "Podróż do pracy",
             "Type": "Travel"
@@ -92,10 +92,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Obowiązki zawodowe.",
-            "EndDate": "07-11-2024-19:00:00",
+            "EndDate": "20-05-2025-19:00:00",
             "EstimatedMinutes": 480,
             "Priority": 5,
-            "StartDate": "07-11-2024-11:00:00",
+            "StartDate": "20-05-2025-11:00:00",
             "StartHour": 11,
             "Title": "Zmiana w pracy",
             "Type": "Work"
@@ -103,10 +103,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Czas na relacje z bliskimi.",
-            "EndDate": "07-11-2024-20:10:00",
+            "EndDate": "20-05-2025-20:10:00",
             "EstimatedMinutes": 60,
             "Priority": 3,
-            "StartDate": "07-11-2024-19:10:00",
+            "StartDate": "20-05-2025-19:10:00",
             "StartHour": 19,
             "Title": "Spotkanie z przyjaciółmi",
             "Type": "Social"
@@ -114,10 +114,10 @@ export function fetchDayplanEvents(userSessionToken: string, dayplanDay: Date) {
         {
             "Completed": false,
             "Description": "Wyjście na spektakl teatralny.",
-            "EndDate": "07-11-2024-23:10:00",
+            "EndDate": "20-05-2025-23:10:00",
             "EstimatedMinutes": 170,
             "Priority": 3,
-            "StartDate": "07-11-2024-20:20:00",
+            "StartDate": "20-05-2025-20:20:00",
             "StartHour": 20,
             "Title": "Wizyta w teatrze",
             "Type": "Hobby"

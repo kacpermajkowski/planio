@@ -1,15 +1,14 @@
 import TimelineEvent from "./timeline-event";
-import type { DayplanEventProps } from "./types";
+import type { DayplanProps } from "./types";
 
-export default function TimelineEvents({
-    events,
-}: {
-    events: DayplanEventProps[];
-}) {
+export default function TimelineEvents(props: DayplanProps) {
     return (
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center">
-            {events.map((props) => (
-                <TimelineEvent {...props} />
+            {props.events.map((eventProps) => (
+                <TimelineEvent
+                    dayplanDay={props.dayplanDay}
+                    eventProps={eventProps}
+                />
             ))}
         </div>
     );

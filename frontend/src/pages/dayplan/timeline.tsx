@@ -17,7 +17,7 @@ export default function Timeline(props: DayplanProps) {
                     TimelineHourLines provides a background so that a user can more easily read the information.
                 */}
                 <TimelineHourLines hours={hours} />
-                <TimelineEvents events={props.events} />
+                <TimelineEvents {...props} />
             </div>
         </div>
     );
