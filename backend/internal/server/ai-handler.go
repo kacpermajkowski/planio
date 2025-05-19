@@ -14,6 +14,7 @@ import (
 )
 
 func HandlerPostAI(c *gin.Context) {
+	fmt.Println("Handling AI task generation request...")
 	userFromSession, err := GetAuthenticated(c.GetHeader("Session"))
 	if err != nil {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": err.Error()})

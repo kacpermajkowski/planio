@@ -45,9 +45,7 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export default function SummaryPage() {
-  const [savedHours, setSavedHours] = useState<number>(0);
   const [tooltipMsg, setTooltipMsg] = useState<string>("");
-  const [hobbyHours, setHobbyHours] = useState<number>(0);
   return (
     <div className="flex gap-12 min-h-svh w-full flex-col items-center justify-center p-6 md:p-10">
       <div className="w-full flex flex-col justify-start items-center gap-12">

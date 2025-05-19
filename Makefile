@@ -11,8 +11,7 @@ build:
 
 # Run the application
 run:
-	@cd backend && go run cmd/api/main.go &
-	@cd frontend && bun install && bun run dev
+	cd backend && go run cmd/api/main.go
 # Create DB container
 docker-run:
 	@if docker compose up --build 2>/dev/null; then \
